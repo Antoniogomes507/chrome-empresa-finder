@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Encontrador de Empresas",
+  "version": "1.0",
+  "description": "Ajuda a encontrar empresas com potencial para oferecer seus serviços.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Clique para analisar a página"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
